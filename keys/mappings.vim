@@ -3,10 +3,17 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j>    :resize -2<CR>
-nnoremap <M-k>    :resize +2<CR>
-nnoremap <M-h>    :vertical resize -2<CR>
-nnoremap <M-l>    :vertical resize +2<CR>
+" Linux mapping
+"nnoremap <M-j>    :resize -2<CR>
+"nnoremap <M-k>    :resize +2<CR>
+"nnoremap <M-h>    :vertical resize -2<CR>
+"nnoremap <M-l>    :vertical resize +2<CR>
+
+" Mac mapping
+nnoremap ∆   :resize -2<CR>
+nnoremap ˚   :resize +2<CR>
+nnoremap ˙   :vertical resize -2<CR>
+nnoremap ¬   :vertical resize +2<CR>
 
 " Easy CAPS
 inoremap <c-u> <ESC>viwUi
